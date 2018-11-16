@@ -1,6 +1,6 @@
-# Unofficial Veruswallet for Docker
+# Unofficial Veruswallet for Docker (Depricated)
 
-__This old repository is now depricated, please do not use.__
+__This old repository is now depricated, please do not use. Only here for informational purposes only.__
 
 ## License
 
@@ -32,7 +32,7 @@ ALWAYS BACKUP YOUR DOCKER CONTAINER VERUSCOIN WALLET AND PRIVATE KEYS REGULARLY 
 
 ## Introduction
 
-This repository once contained an unofficial VerusCoin wallet for Docker, but is now deleted due to the original Bootstrap file from https://bootstrap.0x03.services/veruscoin/VRSC-bootstrap.tar.gz is unavailable. This repository is now only here to help any old users of the Docker image.
+This repository once contained an unofficial VerusCoin wallet for Docker, but is now depricated due to the original Bootstrap file is now unavailable. This repository is now only here to help any old users of the Docker image.
 
 ## Examples for Ubuntu Linux users
 
