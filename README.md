@@ -1,6 +1,6 @@
 # Unofficial Veruswallet for Docker (Depricated)
 
-__This old repository is now depricated, please do not use. Only here for informational purposes only.__
+__This old repository is now depricated, please do not use. Now only here for informational purposes.__
 
 ## License
 
