@@ -90,10 +90,10 @@ $ sudo docker cp veruswallet:/tmp/verusexport/walletbackupfile .
 
 Now you should have a file called 'walletbackupfile' in your folder.
 
-Step #3: Now that you have your backup locally, you can delete the backup from the Docker container for security reasons:
+Step #3: Now that you hopefully have your backup locally in the folder that you ran your commands from, you should delete the backup inside the Docker container for security reasons:
 
 ```console
-$ sudo docker exec rm /tmp/verusexport/main
+$ sudo docker exec rm /tmp/verusexport/walletbackupfile
 ```
 
 ## Getting a private key from the wallet inside the Docker container
@@ -120,4 +120,27 @@ Run the following command from where your wallet.dat file is located:
 $ sudo docker cp wallet.dat veruswallet:/home/verus/.komodo/VRSC/wallet.dat
 ```
 
+## Checking your balance 
 
+```console
+$ verus getbalance
+```
+
+## Listing latest transactions
+
+```console
+$ verus listtransactions
+```
+
+## Listing latest transactions
+
+```console
+$ verus listtransactions
+```
+
+## Troubleshooting: Showing live logging from a running Docker container in your console
+
+```console
+$ sudo docker logs veruswallet -f
+```
+CTRL+C to stop following the log.
