@@ -73,7 +73,7 @@ $ source ~/.bashrc
 Step #3: Test the alias with the following command which also shows verus command help:
 
 ```console
-$ verus --help
+$ verus help
 ```
 
 Note: Please see to the official verus command for more information about how to use verus CLI commands.
@@ -130,10 +130,12 @@ $ sudo docker cp wallet.dat veruswallet:/home/verus/.komodo/VRSC/wallet.dat
 $ verus getbalance
 ```
 
-## Listing latest transactions
+## Sending VerusCoin to another address
+
+Sending 0.1 VerusCoin.
 
 ```console
-$ verus listtransactions
+$ verus sendtoaddress "VRSC_address" 0.1 "Some comments here"
 ```
 
 ## Listing latest transactions
