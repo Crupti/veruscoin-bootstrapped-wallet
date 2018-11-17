@@ -98,7 +98,7 @@ Now you should have a file called 'walletbackupfile' in your folder.
 Step #3: Now that you hopefully have your backup locally in the folder that you ran your commands from, you should delete the backup inside the Docker container for security reasons:
 
 ```console
-$ sudo docker exec rm /tmp/verusexport/walletbackupfile
+$ sudo docker exec veruswallet rm /tmp/verusexport/walletbackupfile
 ```
 
 ## Getting a private key from the wallet inside the Docker container
