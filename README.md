@@ -53,7 +53,8 @@ $ sudo docker run -ti --name crupti/veruswallet
 WARNING: ALWAYS BACKUP WALLETS AND ALL PRIVATE KEYS __BEFORE__ REIMAGING DOCKER CONTAINERS - OTHERWISE YOU WILL LOOSE YOUR VERUSCOIN AS THE WALLET IN THE OLD DOCKER CONTAINER WILL BE DELETED!
 
 ```console
-$ sudo docker run --restart always -i -d -h veruswallet --name veruswallet crupti/veruswallet 
+$ sudo docker run --restart always -i -d -h veruswallet \
+   --name veruswallet crupti/veruswallet 
 ```
 
 ### Adding an alias for the verus command
