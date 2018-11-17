@@ -32,7 +32,7 @@ ALWAYS BACKUP YOUR DOCKER CONTAINER VERUSCOIN WALLET AND PRIVATE KEYS REGULARLY 
 
 ## Introduction
 
-This repository once contained an unofficial VerusCoin wallet for Docker, but is now depricated due to the original Bootstrap file is now unavailable. This repository is now only here to help any old users of the Docker image.
+This repository once contained an unofficial VerusCoin wallet for Docker, but is now depricated. This repository is now only here to help any old users of the Docker image.
 
 ## Examples for Ubuntu Linux users
 
@@ -42,11 +42,15 @@ Please see to the official VerusCoin wallet documentation for how to run verus C
 
 ### Starting the wallet interactively
 
+WARNING: ALWAYS BACKUP WALLETS AND ALL PRIVATE KEYS __BEFORE__ REIMAGING DOCKER CONTAINERS - OTHERWISE YOU WILL LOOSE YOUR VERUSCOIN AS THE WALLET IN THE OLD DOCKER CONTAINER WILL BE DELETED!
+
 ```console
 $ sudo docker run -ti --name crupti/veruswallet
 ```
 
 ### Starting the wallet with automatic restart after host reboot
+
+WARNING: ALWAYS BACKUP WALLETS AND ALL PRIVATE KEYS __BEFORE__ REIMAGING DOCKER CONTAINERS - OTHERWISE YOU WILL LOOSE YOUR VERUSCOIN AS THE WALLET IN THE OLD DOCKER CONTAINER WILL BE DELETED!
 
 ```console
 $ sudo docker run --restart always -i -d -h veruswallet --name veruswallet crupti/veruswallet 
