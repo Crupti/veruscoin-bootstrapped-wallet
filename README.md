@@ -45,7 +45,7 @@ Please see to the official VerusCoin wallet documentation for how to run verus C
 WARNING: ALWAYS BACKUP WALLETS AND ALL PRIVATE KEYS __BEFORE__ REIMAGING DOCKER CONTAINERS - OTHERWISE YOU WILL LOOSE YOUR VERUSCOIN AS THE WALLET IN THE OLD DOCKER CONTAINER WILL BE DELETED!
 
 ```console
-$ sudo docker run -ti --name crupti/veruswallet
+$ sudo docker run -ti --name veruswallet crupti/veruswallet
 ```
 
 ### Starting the wallet with automatic restart after host reboot
